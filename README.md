@@ -7,10 +7,10 @@ accepted in Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquito
 
 ### General
 From this repository, you will find all the necessary components that you may feel interesting and helpful for your own research in our paper.
-
 However, codes provided here are not directly executable, e.g., you would not be able to download and run on your machine.
 This is because, the [EmoPain](https://ieeexplore.ieee.org/abstract/document/7173007/) data is not publicly available, but downloadable upon application.
 In the end, the testing data is held by the EmoPain developer.
+
 ***
 
 ### Intro
@@ -22,11 +22,10 @@ Along the data sequence, the participant performed five activities-of-interest (
 
 ![alt text](/assets/avatars.png "Avatar examples of a participant within the data sequence")
 
-The proposed solution is to leverage the **human activity recognition (HAR)** to contextualize the PBD using a hierarchical architecture, which is, by default, a two stage process during training and an end-to-end process during inference or testing.
+The proposed solution is to leverage the **human activity recognition (HAR)** to contextualize the PBD using a hierarchical architecture, which is, by default, a two stage process during training and an end-to-end process during inference or testing. This architecture comprising two modules (HAR and PBD) could be trained together, and the code is available.
 
 ![alt text](/assets/HAR-PBD.png "Overview of the hierarchical HAR-PBD architecture")
 
-This architecture comprising two modules (HAR and PBD) could be trained together, and the code is available.
 ***
 
 ### Code
@@ -44,14 +43,16 @@ For 20s or 10s GPU, older versions of these packages are 100% doable. BUT, be ca
 **Description**
 
 - utilis.py: here I included some functions, including the Class-balanced Focal Categorical Cross-entropy (CFCC) loss and a function to build callbacks. The callbacks are used by me to automatically save the best results during training and Skip the current training if acc reaches 100%. 
-- GC-LSTM.py: a basic GC-LSTM implementation, which could be adapted to be the PBD/HAR GC-LSTM.
+- gc-LSTM.py: a basic GC-LSTM implementation, which could be adapted to be the PBD/HAR GC-LSTM.
 - HierarchicalHAR-PBD.py: the hierarchical HAR-PBD architecture in its joint-training variant, see Section 5.3 of the paper.
 
 With the above codes, I believe you are not only ready to implement the methods proposed in our paper but also develop yours.
+
 ***
+
 ### Cite
-Feel benefited with our codes?
-Please consider citing the following
+Feel benefited?
+Please consider citing
 
     @article{wang2020leveraging,
 	     title={Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data},
