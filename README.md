@@ -5,7 +5,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)](https://github.com/Mvrjustid/IMWUT-Hierarchical-HAR-PBD/issues)
 [![My achievement](https://img.shields.io/badge/Milestone-1st%20IMWUT-orange)](https://scholar.google.com/citations?user=H7VBxLgAAAAJ&hl=en)
 
-![alt text](/assets/avatars.png "Avatar examples of a participant within the data sequence")
+![alt text](/assets/avatars_2.png "Avatar examples of a participant within the data sequence")
 
 This is for our paper 
 [Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data](https://arxiv.org/abs/2011.01776),
