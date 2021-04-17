@@ -46,7 +46,7 @@ For 20s or 10s GPU, older versions of these packages are 100% doable. BUT, be ca
 - gc-LSTM.py: a basic GC-LSTM implementation, which could be adapted to be the PBD/HAR GC-LSTM.
 - HierarchicalHAR-PBD.py: the hierarchical HAR-PBD architecture in its joint-training variant, see Section 5.3 of the paper.
 
-With the above codes, I believe you are not only ready to implement the methods proposed in our paper but also develop yours.
+With the above codes, you are ready to implement the methods proposed in our paper, while also develop yours.
 
 ***
 
