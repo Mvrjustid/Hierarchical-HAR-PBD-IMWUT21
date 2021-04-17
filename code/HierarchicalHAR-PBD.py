@@ -33,7 +33,7 @@ from keras import backend as K
 from keras.callbacks import EarlyStopping
 from scipy.linalg import fractional_matrix_power
 
-# the following two functions are needed for the hierarchical connection between HAR and PBD modules, and for the Lambda layer to perform the graph normalization per GCN layer.
+# the following three functions are needed for the hierarchical connection between HAR and PBD modules, and for the Lambda layer to perform the graph normalization per GCN layer.
 def HARExtend(nodefeature,time_step,body_num,feature_num):
     # Extend the HAR output from (None,feature_dim) to (None,time_step,body_num,feature_num), in order to be concatenated with the raw input for the PBD module.
     HARExtend = K.argmax(nodefeature,-1)
