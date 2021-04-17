@@ -36,13 +36,17 @@ The code has been tested on a machine with RTX 3080 (: D) and R9 3900X, with
 - keras (keras-nightly==2.6.0) (dev2021040900, installed automatically with tf-nightly-gpu)
 - cuda (11.2)
 - cudnn (8.1.0)
+- python (>=3.8.0)
 
 You may not need to use such an up-to-date environment, depending on the GPU version you have.
 For 20s or 10s GPU, older versions of these packages are 100% doable. BUT, be careful to change some codes thereon, given the update of tensorflow always come with different properties. You can leave an issue if this troubles you too much.
 
 **Description**
+
 utilis.py: here I included some functions, including the Class-balanced Focal Categorical Cross-entropy (CFCC) loss and a function to build callbacks. The callbacks are used by me to automatically save the best results during training and Skip the current training if acc reaches 100%.
+
 GC-LSTM.py: a basic GC-LSTM implementation, which could be adapted to be the PBD/HAR GC-LSTM.
+
 HierarchicalHAR-PBD.py: the hierarchical HAR-PBD architecture in its joint-training variant, see Section 5.3 of the paper.
 
 With the above codes, I believe you are not only ready to implement the methods proposed in our paper but also develop yours.
