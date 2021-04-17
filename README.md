@@ -2,7 +2,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)
 ![GitHub folks](https://img.shields.io/github/forks/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)
 ![GitHub](https://img.shields.io/github/license/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)
-![GitHub issues](https://img.shields.io/github/issues/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)
+[![GitHub issues](https://img.shields.io/github/issues/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)](https://github.com/Mvrjustid/IMWUT-Hierarchical-HAR-PBD/issues)
 ![My achievement](https://img.shields.io/badge/Milestone-1st%20IMWUT-orange)
 
 This is for our paper 
