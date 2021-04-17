@@ -5,6 +5,8 @@
 [![GitHub issues](https://img.shields.io/github/issues/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)](https://github.com/Mvrjustid/IMWUT-Hierarchical-HAR-PBD/issues)
 [![My achievement](https://img.shields.io/badge/Milestone-1st%20IMWUT-orange)](https://scholar.google.com/citations?user=H7VBxLgAAAAJ&hl=en)
 
+![alt text](/assets/avatars.png "Avatar examples of a participant within the data sequence")
+
 This is for our paper 
 [Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data](https://arxiv.org/abs/2011.01776),
 accepted in Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Feb round, 2021.
@@ -25,8 +27,6 @@ In this paper, our aim was to establish accurate **protective behavior detection
 ![alt text](/assets/sequence.png "The continuous data sequence of a participant")
 
 Along the data sequence, the participant performed five activities-of-interest (AoIs), between which he/she was allowed to take some rest and move freely, referred to as transition activities.
-
-![alt text](/assets/avatars.png "Avatar examples of a participant within the data sequence")
 
 The proposed solution is to leverage the **human activity recognition (HAR)** to contextualize the PBD using a hierarchical architecture, which is, by default, a two stage process during training and an end-to-end process during inference or testing. This architecture comprising two modules (HAR and PBD) could be trained together, and the code is available.
 
