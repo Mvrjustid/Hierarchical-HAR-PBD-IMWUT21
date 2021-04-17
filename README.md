@@ -1,9 +1,9 @@
 # Hierarchical HAR-PBD architecture
-![GitHub stars](https://img.shields.io/github/stars/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)
-![GitHub folks](https://img.shields.io/github/forks/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)
-![GitHub](https://img.shields.io/github/license/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)
+[![GitHub stars](https://img.shields.io/github/stars/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)](https://github.com/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)
+[![GitHub folks](https://img.shields.io/github/forks/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)](https://github.com/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)
+[![GitHub](https://img.shields.io/github/license/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)](https://github.com/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)
 [![GitHub issues](https://img.shields.io/github/issues/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)](https://github.com/Mvrjustid/IMWUT-Hierarchical-HAR-PBD/issues)
-![My achievement](https://img.shields.io/badge/Milestone-1st%20IMWUT-orange)
+[![My achievement](https://img.shields.io/badge/Milestone-1st%20IMWUT-orange)](https://scholar.google.com/citations?user=H7VBxLgAAAAJ&hl=en)
 
 This is for our paper 
 [Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data](https://arxiv.org/abs/2011.01776),
