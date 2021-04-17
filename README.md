@@ -15,19 +15,20 @@ In the end, the testing data is held by the EmoPain developer.
 
 ### Intro
 In this paper, our aim was to establish accurate **protective behavior detection (PBD)** along a continuous movement data sequence of a participant with chronic pain. A figure illustrating such data sequence is given below.
-```
+
 ![alt text](/assets/sequence.png "The continuous data sequence of a participant")
-```
+
 Along the data sequence, the participant performed five activities-of-interest (AoIs), between which he/she was allowed to take some rest and move freely, referred to as transition activities.
-```
+
 ![alt text](/assets/avatars.png "Avatar examples of a participant within the data sequence")
-```
+
 The proposed solution is to leverage the **human activity recognition (HAR)** to contextualize the PBD using a hierarchical architecture, which is, by default, a two stage process during training and an end-to-end process during inference or testing.
-```
+
 ![alt text](/assets/IMWUT_1.png "Overview of the hierarchical HAR-PBD architecture")
-```
+
 This architecture comprising two modules (HAR and PBD) could be trained together, and the code is available.
 ***
+
 ### Code
 **Prerequisites**
 The code has been tested on a machine with RTX 3080 (: D) and R9 3900X, with
@@ -50,9 +51,9 @@ With the above codes, I believe you are not only ready to implement the methods 
 Feel benefited with our codes?
 Please consider citing the following
 
-    @article{ wang2020leveraging,
-		      title={Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data},
-		      author={Wang, Chongyang and Gao, Yuan and Mathur, Akhil and Williams, Amanda C DE. C and Lane, Nicholas D and Bianchi-Berthouze, Nadia},
-		      journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)},
-		      publisher={ACM},
-		      year={2021}}
+    @article{wang2020leveraging,
+	     title={Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data},
+	     author={Wang, Chongyang and Gao, Yuan and Mathur, Akhil and Williams, Amanda C DE. C and Lane, Nicholas D and Bianchi-Berthouze, Nadia},
+	     journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)},
+	     publisher={ACM},
+	     year={2021}}
