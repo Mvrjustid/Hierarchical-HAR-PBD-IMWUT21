@@ -42,7 +42,7 @@ For 20s or 10s GPU, older versions of these packages are 100% doable. BUT, be ca
 
 **Description**
 
-- utils.py: here I included some functions, including the Class-balanced Focal Categorical Cross-entropy (CFCC) loss and a function to build callbacks. The callbacks are used by me to automatically save the best results during training and Skip the current training if acc reaches 100%. 
+- utils.py: useful plug-and-play functions, e.g. the Class-balanced Focal Categorical Cross-entropy (CFCC) loss and a function to build callbacks. The callbacks are used by me to automatically save the best results during training and Skip the current training if acc reaches 100%. 
 - gc-LSTM.py: a basic GC-LSTM implementation, which could be adapted to be the PBD/HAR GC-LSTM.
 - HierarchicalHAR-PBD.py: the hierarchical HAR-PBD architecture in its joint-training variant, see Section 5.3 of the paper.
 
@@ -50,9 +50,13 @@ With the above codes, you are ready to implement the methods proposed in our pap
 
 ***
 
-### Cite
+### Reference
 Feel benefited?
 Please consider citing
+
+Chongyang Wang, Yuan Gao, Akhil Mathur, Amanda C. De C. Williams, Nicholas D. Lane, and Nadia Bianchi-Berthouze.
+2021. Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data. Proc. ACM Interact. Mob.
+Wearable Ubiquitous Technol (IMWUT).
 
     @article{wang2020leveraging,
 	     title={Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data},
