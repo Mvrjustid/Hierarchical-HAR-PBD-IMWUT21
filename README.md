@@ -24,7 +24,7 @@ Along the data sequence, the participant performed five activities-of-interest (
 
 The proposed solution is to leverage the **human activity recognition (HAR)** to contextualize the PBD using a hierarchical architecture, which is, by default, a two stage process during training and an end-to-end process during inference or testing.
 
-![alt text](/assets/IMWUT_1.png "Overview of the hierarchical HAR-PBD architecture")
+![alt text](/assets/HAR-PBD.png "Overview of the hierarchical HAR-PBD architecture")
 
 This architecture comprising two modules (HAR and PBD) could be trained together, and the code is available.
 ***
