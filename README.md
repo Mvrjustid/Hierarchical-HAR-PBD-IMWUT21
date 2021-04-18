@@ -15,7 +15,7 @@ accepted in Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquito
 
 ### General
 From this repository, you will find all the necessary components that you may feel interesting and helpful for your own research in our paper.
-However, codes provided here are not directly executable, e.g., you would not be able to download and run simply with a python command on your machine. You will be able to copy the useful segments, paste and modify into your own script.\\
+However, codes provided here are not directly executable, e.g., you would not be able to download and run simply with a python command on your machine. You will be able to copy the useful segments, paste and modify into your own script.\
 This is mainly because, the [EmoPain](https://ieeexplore.ieee.org/abstract/document/7173007/) data is not publicly available, but downloadable upon application.
 In the end, the testing data is held by the EmoPain developer.
 
