@@ -7,8 +7,8 @@
 
 ![alt text](/assets/avatars_2.png "Avatar examples of a participant within the data sequence")
 
-This is for our paper\\
-[Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data](https://arxiv.org/abs/2011.01776),\\
+This is for our paper\
+[Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data](https://arxiv.org/abs/2011.01776),\
 accepted in Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Feb round, 2021.
 
 ***
