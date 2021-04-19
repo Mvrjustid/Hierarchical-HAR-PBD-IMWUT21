@@ -54,7 +54,7 @@ def build_model(timestep,body_num,feature_dim,gcn_units,lstm_units,num_class):
     Dropout1 = Dropout(0.5)(LSTM1)                                                                                                                                                                                                                                             # for earlier Tensorflow, use CuDNNLSTM from Keras.
     LSTM2 = LSTM(lstm_units, activation='tanh',recurrent_activation='sigmoid', recurrent_dropout=0, unroll=False, use_bias=True, return_sequences=True)(Dropout1)
     Dropout2 = Dropout(0.5)(LSTM2)
-    LSTM3 = LSTM(lstm_units, activation='tanh',recurrent_activation='sigmoid', recurrent_dropout=0, unroll=False, use_bias=False, return_sequences=True)(Dropout2)
+    LSTM3 = LSTM(lstm_units, activation='tanh',recurrent_activation='sigmoid', recurrent_dropout=0, unroll=False, use_bias=True, return_sequences=False)(Dropout2)
     Dropout3 = Dropout(0.5)(LSTM3)
     TemporalProcessmodel = Model(inputs=[singleinput], outputs=[Dropout3])
 
