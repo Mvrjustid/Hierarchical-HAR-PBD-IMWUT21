@@ -22,7 +22,7 @@ In the end, the testing data is held by the EmoPain developer.
 ***
 
 ### Intro
-In this paper, our aim was to establish accurate **protective behavior detection (PBD)** along a continuous movement data sequence of a participant with chronic pain. A figure illustrating such data sequence is given below.
+In this paper, our aim was to establish accurate **protective behavior detection (PBD)** along a continuous movement data sequence of a participant with chronic pain (CP). A figure illustrating such data sequence is given below.
 
 ![alt text](/assets/sequence.png "The continuous data sequence of a participant")
 
