@@ -3,7 +3,7 @@
 [![GitHub folks](https://img.shields.io/github/forks/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)](https://github.com/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)
 [![GitHub](https://img.shields.io/github/license/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)](https://github.com/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)
 [![GitHub issues](https://img.shields.io/github/issues/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)](https://github.com/Mvrjustid/IMWUT-Hierarchical-HAR-PBD/issues)
-[![My achievement](https://img.shields.io/badge/Milestone-1st%20IMWUT-orange)](https://scholar.google.com/citations?user=H7VBxLgAAAAJ&hl=en)
+[![My achievement](https://img.shields.io/badge/Milestone-1st%20IMWUT-orange?style=flat-square&logo=Google-Keep)](https://github.com/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)
 
 ![alt text](/assets/avatars_2.png "Avatar examples of a participant within the data sequence")
 
