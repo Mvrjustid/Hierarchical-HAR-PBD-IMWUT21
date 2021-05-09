@@ -62,11 +62,14 @@ Please consider citing
 
 Chongyang Wang, Yuan Gao, Akhil Mathur, Amanda C. De C. Williams, Nicholas D. Lane, and Nadia Bianchi-Berthouze.
 2021. Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data. Proc. ACM Interact. Mob.
-Wearable Ubiquitous Technol (IMWUT).
+Wearable Ubiquitous Technol (IMWUT). 5, 2, Article 81 (June 2021). https://doi.org/10.1145/3463508
 
     @article{wang2020leveraging,
 	     title={Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data},
 	     author={Wang, Chongyang and Gao, Yuan and Mathur, Akhil and Williams, Amanda C. DE C. and Lane, Nicholas D and Bianchi-Berthouze, Nadia},
 	     journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)},
+	     volume={5},
+	     number={2},
+	     DOI={10.1145/3463508},
 	     publisher={ACM},
 	     year={2021}}
