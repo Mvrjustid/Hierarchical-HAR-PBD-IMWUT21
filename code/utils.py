@@ -2,12 +2,15 @@
 # Github page: https://github.com/Mvrjustid/IMWUT-Hierarchical-HAR-PBD
 # Author: https://wangchongyang.ai
 #
-# @article{wang2020leveraging,
-#      title={Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data},
-#      author={Wang, Chongyang and Gao, Yuan and Mathur, Akhil and Williams, Amanda C. DE C. and Lane, Nicholas D and Bianchi-Berthouze, Nadia},
-#      journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)},
-#      publisher={ACM},
-#      year={2021}}
+# @article{wang2021leveraging,
+#     title={Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data},
+#     author={Wang, Chongyang and Gao, Yuan and Mathur, Akhil and Williams, Amanda C. DE C. and Lane, Nicholas D and Bianchi-Berthouze, Nadia},
+#     journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)},
+#     volume={5},
+#     number={2},
+#     DOI={10.1145/3463508},
+#     publisher={ACM},
+#     year={2021}}
 #
 #-------------------------------------------------------------------
 
