@@ -5,7 +5,9 @@
 [![GitHub issues](https://img.shields.io/github/issues/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)](https://github.com/Mvrjustid/IMWUT-Hierarchical-HAR-PBD/issues)
 [![My achievement](https://img.shields.io/badge/Milestone-1st%20IMWUT-orange?style=flat-square&logo=Google-Keep)](https://github.com/Mvrjustid/IMWUT-Hierarchical-HAR-PBD)
 
-![alt text](/assets/avatars_2.png "Avatar examples of a participant within the data sequence")
+<p align=center>
+   <img src=/assets/avatars_2.png width="750x"/>
+</p>
 
 This is for our paper,
 [Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data](https://wangchongyang.ai/assets/pdf/Leveraging_Activity_Recognition_to_Enable_Protective_Behavior_Detection_in_Continuous_Data_IMWUT.pdf),\
@@ -24,13 +26,17 @@ In the end, the testing data is held by the EmoPain developer.
 ### Intro
 In this paper, our aim was to establish accurate **protective behavior detection (PBD)** along a continuous movement data sequence of a participant with chronic pain (CP). A figure illustrating such data sequence is given below.
 
-![alt text](/assets/sequence.png "The continuous data sequence of a participant")
+<p align=center>
+   <img src=/assets/sequence.png width="750x"/>
+</p>
 
 Along the data sequence, the participant performed five activities-of-interest (AoIs), between which he/she was allowed to take some rest and move freely, referred to as transition activities.
 
 The proposed solution is to leverage the **human activity recognition (HAR)** to contextualize the PBD using a hierarchical architecture, which is, by default, a two stage process during training and an end-to-end process during inference or testing. This architecture comprising two modules (HAR and PBD) could be trained together, and the code is available.
 
-![alt text](/assets/HAR-PBD.png "Overview of the hierarchical HAR-PBD architecture")
+<p align=center>
+   <img src=/assets/HAR-PBD.png width="750x"/>
+</p>
 
 ***
 
@@ -63,13 +69,14 @@ Please consider citing
 Chongyang Wang, Yuan Gao, Akhil Mathur, Amanda C. De C. Williams, Nicholas D. Lane, and Nadia Bianchi-Berthouze.
 2021. Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data. Proc. ACM Interact. Mob.
 Wearable Ubiquitous Technol (IMWUT). 5, 2. https://doi.org/10.1145/3463508
-
-    @article{wang2021leveraging,
-	     title={Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data},
-	     author={Wang, Chongyang and Gao, Yuan and Mathur, Akhil and Williams, Amanda C. DE C. and Lane, Nicholas D and Bianchi-Berthouze, Nadia},
-	     journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)},
-	     volume={5},
-	     number={2},
-	     DOI={10.1145/3463508},
-	     publisher={ACM},
-	     year={2021}}
+```
+@article{wang2021leveraging,
+     title={Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data},
+     author={Wang, Chongyang and Gao, Yuan and Mathur, Akhil and Williams, Amanda C. DE C. and Lane, Nicholas D and Bianchi-Berthouze, Nadia},
+     journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)},
+     volume={5},
+     number={2},
+     DOI={10.1145/3463508},
+     publisher={ACM},
+     year={2021}}
+```
