@@ -34,6 +34,8 @@ Along the data sequence, the participant performed five activities-of-interest (
 
 The proposed solution is to leverage the **human activity recognition (HAR)** to contextualize the PBD using a hierarchical architecture, which is, by default, a two stage process during training and an end-to-end process during inference or testing. This architecture comprising two modules (HAR and PBD) could be trained together, and the code is available.
 
+Tips: check if i) joint training of the two modules fits your own problem better; ii) using one-hot encoding for the HAR output during contextualization is doable for your experiment, otherwise you may just pass a number (n) representing the predicted class of activity or using extra embedding layers to help pass the information.
+
 <p align=center>
    <img src=/assets/HAR-PBD.png width="650x"/>
 </p>
