@@ -46,6 +46,7 @@ Check if i) joint training of the two modules fits your own problem better; ii) 
 
 ### Code
 **Prerequisites**
+
 The code has been tested on a machine with RTX 3080 (: D) and R9 3900X, with
 - tensorflow (tf-nightly-gpu==2.6.0) (dev20210409)
 - keras (keras-nightly==2.6.0) (dev2021040900, installed automatically with tf-nightly-gpu)
